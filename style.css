@@ -1302,7 +1302,7 @@ td {
 }
 
 
-@media (max-width:1440px){
+@media (max-width:768px){
 .Device-AR2220-for-responsive{
     overflow-x: auto;
     overflow-y: hidden;
