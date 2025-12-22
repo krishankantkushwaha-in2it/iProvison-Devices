@@ -11,13 +11,13 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 .head {
   font-weight: 700;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 24px;
   color: #262626;
   margin-bottom: 10px;
 }
 
 .device_A822 {
-  width: 1872px;
+  width: max-content;
   height: 266px;
   border: 2.82px solid #000;
   border-radius: 8px;
@@ -941,7 +941,7 @@ background: #393939;
 
 
 
-@media (max-width:1440px){
+@media (max-width:768px){
 .Device-A822-for-responsive{
     overflow-x: auto;
     overflow-y: hidden;
