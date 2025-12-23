@@ -1,0 +1,955 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+ padding:40px 20px;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.device_9703 {
+    width: 1872px;
+    height: 748px;
+    border: 2.82px solid #000;
+    border-radius: 8px;
+    background: #F2F2F2;
+    display: flex;
+    position: relative;
+}
+
+.starting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 83px;
+   min-height: 742.5px;
+  padding: 7px 0px 0px;
+  background: #2b2b2b;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.start_point {
+  gap: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mid_point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.end_point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  position: relative;
+}
+.pill {
+  background: #fff;
+}
+
+.vertical {
+    width: 48.5333251953125px;
+    height: 20.762365px;
+    border-radius: 33%;}
+
+.circle {
+    width: 12.253334px;
+    height: 10.188112px;
+    border-radius: 50%;
+}
+
+.horizontal {
+width: 12.480002403259277px;
+    height: 46.871265px;
+  border-radius: 10px;
+}
+
+.big {
+    width: 23.733332px;
+    height: 28.603943px;
+    border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+.chip-section {
+  height: 100%;
+ width: 140px;
+  position: relative;
+     
+}
+
+
+
+.chip2 {
+  position: relative;
+  width: 30px;
+  height: 28px;
+}
+
+
+.chip2-rec1-four {
+  background: #fffeff;
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  top: 1.3px;
+  right: 7px;
+}
+
+
+.chip2-four-top {
+  background: #191718;
+  width: 14px;
+  height: 3px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+
+.chip_inner_box {
+  position: relative;
+  top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.led {
+  position: absolute;
+  width: 4px;
+  height: 3px;
+  border: 0.5px solid #fff;
+  border-radius: 1px;
+  background: #848484;
+  z-index: 20;
+}
+
+.led.grey {
+  left: -1px;
+  top: -2px;
+}
+
+.led.grey2 {
+  right: -1px;
+  top: -2px;
+}
+
+
+.chip-port {
+  position: relative;
+  width: 23px;
+  height: 16px;
+  background: #191718;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+
+
+.chip-pins {
+  display: flex;
+  gap: 1.2px;
+}
+
+#chip-port1,
+#chip-port12 {
+  width: 2px;
+  height: 6px;
+  background: #fff;
+  position: relative;
+  top: -3px;
+}
+
+#chip-port1 , #chip-port12 {
+  left: 0px;
+}
+
+ 
+.chip-pins span {
+  width: 1px;
+  height: 6px;
+  background: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.six-chip-section{
+     height: 550px;
+    width:1706px;;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    gap: 25px;
+
+}
+
+
+
+.first-trio-section{
+height: 116px;
+width: 100%;
+    background: #D9D9D9;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.s973-chipsec{
+    position: relative;
+    width: 265px;
+    height: 76px;
+    border: 2px solid #000000;
+    background: #D9D9D9;
+       padding: 10px 11px;
+}
+
+
+
+.gefe-one{
+    width: 100%;
+}
+
+.six-chip{
+    display: flex;
+        gap: 20px;
+}
+
+.six-chip-rotate  {
+    display: flex;
+        gap: 20px;
+    transform: rotate(180deg);
+}
+
+
+
+
+.triangle-count-section{
+    display: flex;
+    position: absolute;
+         bottom: -19px;
+    width: 271px;
+    gap: 3px;
+    left: -3px;
+}
+
+
+
+.triangle-count span{
+    font-size: 10px;
+}
+
+.triangle-count img{
+        width: 8px;
+}
+
+.ploy-rotate{
+     transform: rotate(180deg);
+}
+
+
+.blank-rec-ver{
+    width: 105px;
+height: 18px;
+border: 1px solid #000;
+border-radius: 2px;
+background: #D9D9D9;
+    position: absolute;
+    right: 25px;
+
+
+}
+.blank-rec-hor{
+   width: 46px;
+height: 70px;
+border: 1px solid #000;
+border-radius: 2px;
+    position: absolute;
+    right: 83px;
+    top: 33px;
+background: #D9D9D9;
+
+}
+
+
+
+
+
+
+
+
+
+.single-s973-chipsec {
+    width: 425px;
+    height: 84px;
+    border: 2px solid #000000;
+    background: #D9D9D9;
+    padding: 5px;
+        display: flex;
+}
+
+.single-chip {
+  position: relative;
+  width: 85.38041687011719px;
+  height: 70px;
+}
+.chip2-rot{
+        transform: rotate(180deg);
+}
+.single_chip_inner_box {
+  position: relative;
+  top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-chip2-rec2 {
+  background: #191718;
+  width: 40px;
+  height: 8.538041114807163px;
+  position: absolute;
+  top: 10px;
+  right: 23px;
+}
+.single-chip2-rec1 {
+      background: #fffeff;
+    width: 30px;
+    height: 7px;
+    position: absolute;
+    top: 3px;
+    right: 28px;
+}
+
+.single-led {
+ position: absolute;
+    width: 11px;
+    height: 8px;
+    border: 0.5px solid #fff;
+    border-radius: 2px;
+    background: #848484;
+    z-index: 20;
+}
+
+
+.led-lft{
+    left: 7px;
+    top: -3px;
+}
+
+.led-rft{
+    right: 7px;
+     top: -3px;
+}
+.single-chip-port {
+  position: relative;
+  left: 0px;
+  width: 65.45832061767578px;
+  height: 45.536224365234375px;
+
+  background: #191718;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 6px;
+}
+
+.single-chip-pins {
+  display: flex;
+  gap: 4px;
+}
+#single-chip-port1 {
+  width: 6px;
+  height: 17.076082229614258px;
+  background-color: white;
+  position: relative;
+  top: -9px;
+  left: 2px;
+}
+
+#single-chip-port12 {
+  width: 6px;
+  height: 17.076082229614258px;
+  background-color: white;
+  position: relative;
+  top: -9px;
+  left: -2px;
+}
+.single-chip-pins span {
+  width: 2.8460140228271484px;
+  height: 17.076082229614258px;
+
+  background: #888888;
+}
+
+
+
+
+.link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+      padding-top: 45px;
+}
+
+.link-text{
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.link-dot {
+  width: 16px;
+  height: 16px;
+  background: #111110;
+  border-radius: 50%;
+}
+
+
+.single-first-trio-section {
+    height: 116px;
+    width: 606px;
+    background: #D9D9D9;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.double-rst-section{
+    display: flex;
+    gap: 58px;
+        height: 116px;
+    width: 1270px;
+}
+
+
+
+
+.left-9703{
+    width: 1270px;
+
+}
+
+.right-9703{
+    width: 427px;
+height: 522px;
+border-radius: 8px;
+background: #363335;
+
+}
+
+
+
+.logo-huawei{
+    padding: 30px;
+}
+
+
+.count-pipe{
+    width: 65px;
+height: 360px;
+border: 1px solid #fff;
+border-radius: 8px;
+
+    margin-top: 40px;
+}
+
+.count-pipe div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+
+.one_count_pipe{
+    height: 70px;
+     border-bottom: 1px solid #fff;
+}
+.two_count_pipe{
+height: 100px;
+ border-bottom: 1px solid #fff;
+}
+.three_count_pipe{
+height: 120px;
+ border-bottom: 1px solid #fff;
+}
+.four_count_pipe{
+height: 70px;
+padding: 5px 3px 4px 3px;
+}
+.four_count_pipe_red{
+  height: 100%;
+  width: 100%;
+  border-radius:0px 0px 8px 8px;
+background: #B74356;
+
+}
+
+
+
+.right_container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:24px;
+            z-index: 10;
+    }
+
+    .right_box{
+        width:50px;
+        height:104px;
+        background:#6b6b6b;
+        border-radius:8px;
+    }
+
+    .right_plus{
+        width:22px;
+        height:22px;
+        background:#fff;
+        border-radius:50%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:20px;
+        font-weight:bold;
+        line-height:1;
+    }
+
+    .right_three_switch{
+      display: flex; justify-content: space-between;    padding: 0px 42px 0px 38px;
+      position: relative;
+    }
+
+.custom-shape{
+      position: absolute;
+    right: 24px;
+    top: 18px;
+    z-index: 0;
+}
+
+  .last_row_two_socket {
+    background: #2b2b2b;
+      width: 1712px;
+height: 165px;
+padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    box-sizing: content-box;
+    z-index: 0;
+        display: flex;
+
+}
+
+
+
+
+
+
+
+
+.wrapper {
+width: 576.66650390625px;
+height: 164.59555053710938px;
+border-top-left-radius: 16px;
+border-bottom-left-radius: 16px;
+background: #363335;
+border: 1px solid #000000;
+position: relative;
+ 
+}
+.card_ply_text{
+    display: inline-block;
+    padding: 10px 0px 0px 22px;
+}
+.card_ply_text pre{
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+    color: white;
+    line-height: 17px;
+letter-spacing: 0%;
+
+}
+.card_polynet {
+    position: absolute;
+   left: 117px;
+      top: -15px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  transform: rotate(90deg);
+}
+
+.cardnet {
+    
+  background: #626060;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 124.83978271484375px;
+  height: 192.23947143554688px;
+  border: 2.82px solid #000;
+  border-radius: 6.76px;
+}
+.inner {
+  width: 76.824462890625px;
+  height: 147.183349609375px;
+  /* border: 2.82px solid #000; */
+  background: #111110;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 40% 100%, 0 80%, 0 20%);
+}
+
+.small-dot {
+  position: absolute;
+      right: 90px;
+    top: 105px;
+  width: 26.261756896972656px;
+  height: 26.261756896972656px;
+  background: #28292b;
+  border-radius: 50%;
+}
+
+.card_text {
+  position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+
+.card_text span {
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  
+ 
+}
+
+.inner .dot {
+  width: 24.00765037536621px;
+  height: 18.022451400756836px;
+  background: #d9d9d9;
+
+  border-radius: 3.38px;
+}
+.inner .one {
+  top: 54px;
+  position: absolute;
+  right: 61px;
+}
+.inner .two {
+  top: 90px;
+  position: absolute;
+  left: 64px;
+}
+.inner .three {
+  top: 128px;
+  position: absolute;
+  right: 61px;
+}
+
+
+
+.card_polynet_cir {
+
+    position: absolute;
+    right: 28%;
+    top: 29%;
+    display: flex;
+    gap: 3px;
+}
+ .card_polynet_cir1, .card_polynet_cir2, .card_polynet_cir3, .card_polynet_cir4,.card_polynet_cir5, .card_polynet_cir6{
+    justify-content: center;
+display: flex;
+    flex-direction: column;
+        gap: 3px;
+}
+
+.card_polynet_cir span{
+  width: 19.617446899414062px;
+height: 17.271764755249023px;
+background: #131313;
+    display: inline-block;
+    border-radius: 50px;
+
+
+}
+
+
+.RAf-text{
+      transform: rotate(-90deg);
+    top: 6px;
+    position: absolute;
+    right: 50px;
+}
+.RAf-text span{
+font-family: Segoe UI;
+font-weight: 400;
+font-size: 12px;
+    display: flex;
+    gap: 4px;
+    padding-bottom: 3px;
+    color: #fff;
+}
+
+.RAf-text span::before{
+  content: "";
+    width: 19px;
+    height: 19.5px;
+border: 2px solid #000;
+background: #75716D;
+border-radius: 50px;
+display: inline-block;
+
+}
+
+/* toggle */
+.toggle_section {
+  position: absolute;
+     right: 62px;
+    bottom: 16px;
+    transform: rotate(90deg);
+}
+.toggle {
+  width: 44.31418609619145px;
+  height: 87.72233581542976px;
+  border: 1px solid #000;
+  background: #111;
+  border-radius: 6px;
+}
+.toggle:before {
+  content: "";
+  position: absolute;
+  bottom: 24px;
+  left: 20px;
+  height: 15.818785667419517px;
+  width: 0px;
+  border: 1px solid #fff;
+}
+.toggle:after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 10px;
+
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 18.694923400878924px;
+  width: 16.459554672241225px;
+}
+
+.toggle_text {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 131px;
+    width: auto;
+    position: absolute;
+    left: 10px;
+    top: -23px;
+    transform: rotate(180deg);
+}
+.toggle_text span {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    transform: rotate(90deg);
+    color: #fff;
+}
+
+
+
+.wrapper1 {
+width: 576.66650390625px;
+height: 164.59555053710938px;
+background: #363335;
+border: 1px solid #000000;
+position: relative;
+ 
+}
+.wrapper2 {
+width: 576.66650390625px;
+height: 164.59555053710938px;
+background: #363335;
+border-top-right-radius: 16px;
+border-bottom-right-radius: 16px;
+border: 1px solid #000000;
+position: relative;
+ 
+}
+
+
+.wire{
+  width: 327px;
+height: 9px;
+background: #D9D9D9;
+
+}
+
+.wire-switch{
+  width: 36px;
+height: 36px;
+    margin-left: 35%;
+border-radius: 2px;
+background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wire-switch-cir{
+     border-radius: 50px;
+    width: 23px;
+    height: 23px;
+    background: #000000;
+    border: 6px solid #fff;
+}
+.wire-right-sec{
+     width: 66.15127563476562px;
+    height: 164.59555053710938px;
+    border-left: 1px solid #000000;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.wire-poly{
+  width: 28.393667221069336px;
+height: 28.393667221069336px;
+border-radius: 2.84px;
+background: #C59327;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+           margin: 35px auto 10px;
+
+}
+
+.wire-poly-cir{
+     border-radius: 50px;
+    width: 23px;
+    height: 23px;
+    background: #000000;
+    border: 6px solid #fff;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ending {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 83px;
+ height: 744px;
+  padding: 7px 0px 0px;
+  background: #2b2b2b;
+  border-radius: 5px 0px 0px 5px;
+
+}
+
+.circle-end {
+     width: 33px;
+    height: 35px;
+  border-radius: 50%;
+  border: 1.4px solid #707070;
+  background: #acadaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cir_end {
+  width: 18px;
+    height: 20px;
+  border-radius: 50%;
+  border: 1.4px solid #707070;
+  background: #ffffff;
+}
+
+
+
+
+@media (max-width:768px){
+.Device-9703-for-responsive{
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
