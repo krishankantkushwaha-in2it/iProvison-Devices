@@ -6314,7 +6314,7 @@ td {
 @media (max-width: 1024px) {
   .Device-responsive {
     overflow-x: auto;
-    overflow-y: auto;
+    overflow-y: hidden;
     width: 100%;
     height: 100%;
     border-left: 1px solid #000;
