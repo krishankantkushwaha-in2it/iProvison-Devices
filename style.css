@@ -1903,6 +1903,21 @@ body {
   right: 45%;
 }
 
+.device_A822 .mid_triangle{
+        line-height: 0;
+    letter-spacing: -4px;
+    gap: 10px;
+    display: flex;
+}
+
+.device_A822 .mid_triangle img {
+    width: 12px;
+}
+.device_A822 .mid_tri_section{
+    display: flex;
+      gap: 19px;
+    padding-left: 19px;
+} 
 .device_A822 .mid-rot {
   transform: rotate(180deg);
 }
