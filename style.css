@@ -728,7 +728,6 @@ body {
   width: 11.8125px;
   height: 2.362499952316284px;
   background: #b6a064;
-
   position: absolute;
 }
 
@@ -890,7 +889,6 @@ body {
 .wrapper_left .cir_end {
   width: 17px;
   height: 16px;
-
   border-radius: 50%;
   border: 1.4px solid #707070;
   background: #ffffff;
@@ -973,16 +971,13 @@ body {
   top: 50%;
   left: 50%;
   background: #707070;
-
   transform: translate(-50%, -50%);
 }
 
 .device_AR2220-two .circle-table-rec {
   width: 52px;
   height: 48px;
-
   bottom: 39px;
-  /* border: 1px solid #000; */
   border-radius: 5px;
   margin: 0px 0px 0px 2px;
   position: relative;
@@ -995,7 +990,6 @@ body {
   border: 1px solid #000;
   border-radius: 5px;
   background: #ffff00;
-
   margin: 0px 0px 0px 2px;
   position: relative;
 }
@@ -1009,7 +1003,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
 
@@ -1324,7 +1317,6 @@ body {
 .device_AR2220-two .cir_end {
   width: 17px;
   height: 16px;
-
   border-radius: 50%;
   border: 1.4px solid #707070;
   background: #ffffff;
@@ -1991,7 +1983,6 @@ body {
 .device_A822 .cir_end {
   width: 17px;
   height: 16px;
-
   border-radius: 50%;
   border: 1.4px solid #707070;
   background: #ffffff;
