@@ -970,7 +970,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #0E0C09;
+  background: #0e0c09;
   transform: translate(-50%, -50%);
 }
 
@@ -1903,21 +1903,21 @@ body {
   right: 45%;
 }
 
-.device_A822 .mid_triangle{
-        line-height: 0;
-    letter-spacing: -4px;
-    gap: 10px;
-    display: flex;
+.device_A822 .mid_triangle {
+  line-height: 0;
+  letter-spacing: -4px;
+  gap: 10px;
+  display: flex;
 }
 
 .device_A822 .mid_triangle img {
-    width: 12px;
+  width: 12px;
 }
-.device_A822 .mid_tri_section{
-    display: flex;
-      gap: 19px;
-    padding-left: 19px;
-} 
+.device_A822 .mid_tri_section {
+  display: flex;
+  gap: 19px;
+  padding-left: 19px;
+}
 .device_A822 .mid-rot {
   transform: rotate(180deg);
 }
@@ -3315,7 +3315,7 @@ body {
   align-items: center;
   font-size: 20px;
   font-weight: bold;
-    padding: 0px 0px 5px;
+  padding: 0px 0px 5px;
 }
 
 .device_9703 .right_three_switch {
@@ -3515,7 +3515,7 @@ body {
 .device_9703 .toggle:before {
   content: "";
   position: absolute;
-    top: 42px;
+  top: 42px;
   left: 20px;
   height: 15.818785667419517px;
   width: 0px;
@@ -6325,14 +6325,13 @@ td {
     width: 100%;
     height: 100%;
     border-left: 2px solid #000;
-    border-right:2px solid #000;
+    border-right: 2px solid #000;
   }
 }
 
-
 ::-webkit-scrollbar {
-      width: 5px;
-    height: 5px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
