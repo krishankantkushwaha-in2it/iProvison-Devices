@@ -970,7 +970,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #707070;
+  background: #0E0C09;
   transform: translate(-50%, -50%);
 }
 
@@ -1642,7 +1642,7 @@ body {
 .device_A822 .link_act {
   position: absolute;
   top: 15px;
-  right: 35%;
+  right: 46%;
   display: flex;
   gap: 18px;
   flex-direction: column;
@@ -2331,7 +2331,7 @@ body {
 .device_A822E .link_act {
   position: absolute;
   top: 15px;
-  right: 35%;
+  right: 46%;
   display: flex;
   gap: 18px;
   flex-direction: column;
@@ -3309,12 +3309,13 @@ body {
   height: 22px;
   background: #fff;
   border-radius: 50%;
+  border: 1px solid #000;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+    padding: 0px 0px 5px;
 }
 
 .device_9703 .right_three_switch {
@@ -3489,8 +3490,8 @@ body {
 
 .device_9703 .RAf-text span::before {
   content: "";
-  width: 19px;
-  height: 19.5px;
+  width: 16px;
+  height: 18px;
   border: 2px solid #000;
   background: #75716d;
   border-radius: 50px;
@@ -3514,7 +3515,7 @@ body {
 .device_9703 .toggle:before {
   content: "";
   position: absolute;
-  bottom: 24px;
+    top: 42px;
   left: 20px;
   height: 15.818785667419517px;
   width: 0px;
@@ -5915,7 +5916,7 @@ td {
   display: flex;
   position: absolute;
   left: 20%;
-  top: 0;
+  top: 7px;
   gap: 10px;
 }
 
